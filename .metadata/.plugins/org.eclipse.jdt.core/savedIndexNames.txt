@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\JT\Desktop\Estudos - 4 periodo\EstruturaDeDados-01\.metadata\.plugins\org.eclipse.jdt.core
+2655798979.index
+3070938258.index
+2524174724.index
+1713975944.index
+164906387.index
+1865797976.index

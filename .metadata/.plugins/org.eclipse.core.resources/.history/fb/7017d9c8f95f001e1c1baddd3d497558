@@ -1,0 +1,43 @@
+package core;
+
+import entites.ListaDuplamenteEncadeada;
+
+public class Main {
+    public static void main(String[] args) {
+        ListaDuplamenteEncadeada<Integer> lista = new ListaDuplamenteEncadeada<>();
+
+        // Adicionando elementos no início da lista
+        lista.adicionarNoInicio(3);
+        lista.adicionarNoInicio(2);
+        lista.adicionarNoInicio(1);
+
+        // Adicionando elementos no final da lista
+        lista.adicionarNoFim(4);
+        lista.adicionarNoFim(5);
+
+        // Adicionando elemento na posição 2 (contagem começa em 0)
+        lista.adicionarNaPosicao(10, 2);
+
+        // Removendo elementos
+        lista.removerDoInicio();
+        lista.removerDoFim();
+        lista.removerNaPosicao(2);
+
+        // Obtendo elementos
+        int elemento1 = lista.obter(0);
+        int elemento2 = lista.obter(1);
+
+        // Verificando tamanho e se a lista está vazia
+        int tamanho = lista.tamanho();
+        boolean estaVazia = lista.estaVazia();
+
+        // Imprimindo a lista
+        System.out.println("Lista: " + lista);
+
+        // Imprimindo informações
+        System.out.println("Elemento 1: " + elemento1);
+        System.out.println("Elemento 2: " + elemento2);
+        System.out.println("Tamanho: " + tamanho);
+        System.out.println("Está vazia? " + estaVazia);
+    }
+}

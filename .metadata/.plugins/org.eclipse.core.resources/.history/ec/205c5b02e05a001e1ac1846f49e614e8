@@ -1,0 +1,28 @@
+package core;
+import entites.ListaDuplamenteEncadeada;
+public class Main {
+	public static void main(String[] args) {
+		
+		ListaDuplamenteEncadeada<Integer> list = new ListaDuplamenteEncadeada<>();
+		
+		
+		System.out.println(list.existeDado());
+		
+		list.addInicio(2);
+		System.out.println(list);
+		list.addInicio(5);
+		System.out.println(list);
+		list.addFim(3);
+		System.out.println(list);
+		System.out.println(list.existeDado());
+		System.out.printf("Elemento: " + list.Recupera(2) + "\n");
+		list.removeInicio();
+		System.out.println(list);
+		
+		System.out.println(list);
+		
+		System.out.println(list);
+		list.clear();
+		System.out.println(list);
+	}
+}

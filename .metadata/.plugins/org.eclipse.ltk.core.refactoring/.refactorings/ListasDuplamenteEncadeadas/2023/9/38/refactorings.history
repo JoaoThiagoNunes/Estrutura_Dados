@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;entites.Iterator.java&apos; to &apos;Iterador.java&apos;&#x0D;&#x0A;- Original project: &apos;ListasDuplamenteEncadeadas&apos;&#x0D;&#x0A;- Original element: &apos;entites.Iterator.java&apos;&#x0D;&#x0A;- Renamed element: &apos;entites.Iterador.java&apos;" description="Rename compilation unit &apos;Iterator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;entites{Iterator.java" name="Iterador.java" references="false" stamp="1695147248833" version="1.0"/>
+</session>
